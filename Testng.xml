@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="AmazonProject" parallel="tests">
+ <test name="TestNG" allow-return-values="true">
+<classes>
+<class name="testLayer.RegistrationTestCase"/>
+</classes>
+</test>
+</suite>
